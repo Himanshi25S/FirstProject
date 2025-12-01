@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import data from "../data/Data.json";
+import Slider from "./components/Slider";
 
 const Cards = () => {
 const resolveImage = (imageName) =>
@@ -47,7 +48,7 @@ return ( <div className="block sm:hidden grid grid-cols-1 gap-6 px-3 py-5">
   ))}
   <div>
     <h1>Shop By Manufacturers</h1>
-    
+    <Slider/>
   </div>
 </div>
 )};
