@@ -19,9 +19,10 @@ const Home = () => {
   ];
 
   return (
+    <div>
+      <SearchBar/>
     <div className="min-h-screen bg-slate-50 flex justify-center px-3 md:px-6 lg:px-8 py-4 md:py-8">
       <div className="w-full max-w-5xl text-gray-900">
-      <SearchBar/>
 
         {/* ------------ CATEGORY STRIP ------------ */}
         <div
@@ -147,6 +148,7 @@ const Home = () => {
 </footer>
 
       </div>
+    </div>
     </div>
   );
 };
