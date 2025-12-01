@@ -45,6 +45,10 @@ return ( <div className="block sm:hidden grid grid-cols-1 gap-6 px-3 py-5">
       </div>
     </div>
   ))}
+  <div>
+    <h1>Shop By Manufacturers</h1>
+    
+  </div>
 </div>
 )};
 
