@@ -1,12 +1,12 @@
-import { useState } from 'react'
-import './App.css'
-import Home from './pages/Home'
+
+import { useState } from 'react';
+import './App.css';
+import Home from './pages/Home';
+
 
 import ProductCard from './components/ProductCard.jsx'
 
 function App() {
-  
-
   return (
     <>
     <Home/>
@@ -15,4 +15,4 @@ function App() {
   )
 }
 
-export default App
+export default App;
