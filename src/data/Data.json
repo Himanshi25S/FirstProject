@@ -1,0 +1,22 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "title": "Phenergan Syrup",
+      "company": "Medilink Agency",
+      "price": "1.00",
+      "mrp": "1.11",
+      "discount": "7",
+      "image": "loanCalculator.jpg"
+    },
+    {
+      "id": 2,
+      "title": "Crocin 500mg",
+      "company": "GSK Pharma",
+      "price": "18.00",
+      "mrp": "20.00",
+      "discount": "10",
+      "image": "loanCalculator.jpg"
+    }
+  ]
+}
