@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { Bell, Wallet, ShoppingCart } from "lucide-react"; // icon library
+import { NavLink } from "react-router-dom";
 
 export default function Header() {
   const [open, setOpen] = useState(false);
@@ -23,7 +24,10 @@ export default function Header() {
         <div className="flex items-center space-x-4 text-gray-700">
           <Bell className="w-6 h-6 cursor-pointer hover:text-red-600" />
           <Wallet className="w-6 h-6 cursor-pointer hover:text-red-600" />
+          <NavLink to="/cart">
           <ShoppingCart className="w-6 h-6 cursor-pointer hover:text-red-600" />
+          </NavLink>
+          
         </div>
       </div>
 

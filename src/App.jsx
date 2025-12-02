@@ -1,18 +1,7 @@
-
-import { useState } from 'react';
-import './App.css';
-import Home from './pages/Home';
-
-
-import ProductCard from './components/ProductCard.jsx'
+import AllRoutes from "./Routes/allroutes";
 
 function App() {
-  return (
-    <>
-    <Home/>
-    <ProductCard/>
-    </>
-  )
+  return <AllRoutes />;
 }
 
 export default App;
